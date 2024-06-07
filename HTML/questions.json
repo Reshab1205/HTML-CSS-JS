@@ -1,0 +1,995 @@
+{
+    "questions": [
+      {
+        "question": "What does HTML stand for?",
+        "options": {
+          "a": "Hyper Text Markup Language",
+          "b": "Home Tool Markup Language",
+          "c": "Hyperlinks and Text Markup Language",
+          "d": "Hyper Tool Multi Language"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define an unordered list in HTML?",
+        "options": {
+          "a": "<ul>",
+          "b": "<ol>",
+          "c": "<li>",
+          "d": "<dl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a table row in HTML?",
+        "options": {
+          "a": "<td>",
+          "b": "<th>",
+          "c": "<tr>",
+          "d": "<table>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to insert a line break in HTML?",
+        "options": {
+          "a": "<br>",
+          "b": "<hr>",
+          "c": "<p>",
+          "d": "<nl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to define inline styles in HTML?",
+        "options": {
+          "a": "class",
+          "b": "style",
+          "c": "id",
+          "d": "src"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML element for the largest heading?",
+        "options": {
+          "a": "<h1>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a hyperlink in HTML?",
+        "options": {
+          "a": "<link>",
+          "b": "<a>",
+          "c": "<href>",
+          "d": "<url>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": {
+          "a": "<break>",
+          "b": "<lb>",
+          "c": "<br>",
+          "d": "<newline>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an image in HTML?",
+        "options": {
+          "a": "<image>",
+          "b": "<img>",
+          "c": "<picture>",
+          "d": "<src>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which attribute is used to specify the URL of an external script file in HTML?",
+        "options": {
+          "a": "link",
+          "b": "script",
+          "c": "src",
+          "d": "href"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define the body of an HTML document?",
+        "options": {
+          "a": "<header>",
+          "b": "<section>",
+          "c": "<body>",
+          "d": "<main>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a list item in HTML?",
+        "options": {
+          "a": "<li>",
+          "b": "<ul>",
+          "c": "<ol>",
+          "d": "<list>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to specify an alternate text for an image in HTML?",
+        "options": {
+          "a": "alt",
+          "b": "title",
+          "c": "src",
+          "d": "link"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a table in HTML?",
+        "options": {
+          "a": "<table>",
+          "b": "<tr>",
+          "c": "<td>",
+          "d": "<th>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for adding a background color?",
+        "options": {
+          "a": "<body style='background-color: yellow;'>",
+          "b": "<background color='yellow'>",
+          "c": "<body bg='yellow'>",
+          "d": "<body color='yellow'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to define inline styles in HTML?",
+        "options": {
+          "a": "font",
+          "b": "class",
+          "c": "style",
+          "d": "color"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define the document type in HTML?",
+        "options": {
+          "a": "<doctype>",
+          "b": "<html>",
+          "c": "<head>",
+          "d": "<body>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a section in HTML?",
+        "options": {
+          "a": "<section>",
+          "b": "<div>",
+          "c": "<span>",
+          "d": "<article>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to specify the character encoding for the HTML document?",
+        "options": {
+          "a": "charset",
+          "b": "encoding",
+          "c": "type",
+          "d": "meta"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text input field?",
+        "options": {
+          "a": "<input type='text'>",
+          "b": "<textinput type='text'>",
+          "c": "<textfield>",
+          "d": "<textbox>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define the header of an HTML document?",
+        "options": {
+          "a": "<header>",
+          "b": "<section>",
+          "c": "<body>",
+          "d": "<head>"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": {
+          "a": "<a url='http://example.com'>Example</a>",
+          "b": "<a link='http://example.com'>Example</a>",
+          "c": "<a href='http://example.com'>Example</a>",
+          "d": "<a src='http://example.com'>Example</a>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an italicized text in HTML?",
+        "options": {
+          "a": "<italic>",
+          "b": "<em>",
+          "c": "<italicize>",
+          "d": "<i>"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "Which attribute is used to specify a target URL for a hyperlink in HTML?",
+        "options": {
+          "a": "target",
+          "b": "href",
+          "c": "url",
+          "d": "link"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a paragraph in HTML?",
+        "options": {
+          "a": "<paragraph>",
+          "b": "<p>",
+          "c": "<par>",
+          "d": "<text>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML for creating a checkbox?",
+        "options": {
+          "a": "<checkbox>",
+          "b": "<check>",
+          "c": "<input type='checkbox'>",
+          "d": "<input checkbox='checkbox'>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which attribute is used to define inline styles in HTML?",
+        "options": {
+          "a": "style",
+          "b": "class",
+          "c": "id",
+          "d": "font"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-one heading in HTML?",
+        "options": {
+          "a": "<h1>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a table?",
+        "options": {
+          "a": "<table><row><cell></cell></row></table>",
+          "b": "<table><tr><td></td></tr></table>",
+          "c": "<table><th><td></td></th></table>",
+          "d": "<table><ul><li></li></ul></table>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a level-two heading in HTML?",
+        "options": {
+          "a": "<h2>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a checkbox?",
+        "options": {
+          "a": "<input type='check'>",
+          "b": "<input type='checkbox'>",
+          "c": "<checkbox>",
+          "d": "<check>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a level-three heading in HTML?",
+        "options": {
+          "a": "<h3>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a radio button?",
+        "options": {
+          "a": "<input type='radio'>",
+          "b": "<radio>",
+          "c": "<input type='button'>",
+          "d": "<input button='radio'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-four heading in HTML?",
+        "options": {
+          "a": "<h4>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to specify an alternate text for an image in HTML?",
+        "options": {
+          "a": "title",
+          "b": "alt",
+          "c": "src",
+          "d": "link"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "What is the correct HTML for creating a text area?",
+        "options": {
+          "a": "<input type='textarea'>",
+          "b": "<textarea>",
+          "c": "<textinput type='textarea'>",
+          "d": "<input text='textarea'>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a level-five heading in HTML?",
+        "options": {
+          "a": "<h5>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a drop-down list?",
+        "options": {
+          "a": "<dropdown>",
+          "b": "<list>",
+          "c": "<select>",
+          "d": "<input type='list'>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a level-six heading in HTML?",
+        "options": {
+          "a": "<h6>",
+          "b": "<h5>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a line break in HTML?",
+        "options": {
+          "a": "<br>",
+          "b": "<lb>",
+          "c": "<linebreak>",
+          "d": "<newline>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for inserting an image?",
+        "options": {
+          "a": "<img src='image.jpg'>",
+          "b": "<image href='image.jpg'>",
+          "c": "<a src='image.jpg'></a>",
+          "d": "<src='image.jpg'></src>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a section in HTML?",
+        "options": {
+          "a": "<section>",
+          "b": "<div>",
+          "c": "<span>",
+          "d": "<article>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text bold?",
+        "options": {
+          "a": "<b>",
+          "b": "<bold>",
+          "c": "<strong>",
+          "d": "<em>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which attribute is used to define a tooltip text for an element in HTML?",
+        "options": {
+          "a": "tooltip",
+          "b": "hint",
+          "c": "title",
+          "d": "text"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "What is the correct HTML for inserting a background image?",
+        "options": {
+          "a": "<background img='image.jpg'>",
+          "b": "<img background='image.jpg'>",
+          "c": "<image src='image.jpg'>",
+          "d": "<body style='background-image: url(image.jpg);'>"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "Which tag is used to define a horizontal line in HTML?",
+        "options": {
+          "a": "<hr>",
+          "b": "<br>",
+          "c": "<line>",
+          "d": "<hrule>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": {
+          "a": "<a url='http://example.com'>Example</a>",
+          "b": "<a link='http://example.com'>Example</a>",
+          "c": "<a href='http://example.com'>Example</a>",
+          "d": "<a src='http://example.com'>Example</a>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an unordered list in HTML?",
+        "options": {
+          "a": "<ul>",
+          "b": "<ol>",
+          "c": "<li>",
+          "d": "<dl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text italic?",
+        "options": {
+          "a": "<italic>",
+          "b": "<em>",
+          "c": "<i>",
+          "d": "<italicize>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an ordered list in HTML?",
+        "options": {
+          "a": "<ol>",
+          "b": "<ul>",
+          "c": "<li>",
+          "d": "<dl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for inserting a background color?",
+        "options": {
+          "a": "<body style='background-color: yellow;'>",
+          "b": "<background color='yellow'>",
+          "c": "<body bg='yellow'>",
+          "d": "<body color='yellow'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a table row in HTML?",
+        "options": {
+          "a": "<tr>",
+          "b": "<th>",
+          "c": "<td>",
+          "d": "<table>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a line break?",
+        "options": {
+          "a": "<break>",
+          "b": "<lb>",
+          "c": "<br>",
+          "d": "<newline>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a table cell in HTML?",
+        "options": {
+          "a": "<td>",
+          "b": "<th>",
+          "c": "<tr>",
+          "d": "<table>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": {
+          "a": "<a url='http://example.com'>Example</a>",
+          "b": "<a link='http://example.com'>Example</a>",
+          "c": "<a href='http://example.com'>Example</a>",
+          "d": "<a src='http://example.com'>Example</a>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an image in HTML?",
+        "options": {
+          "a": "<img>",
+          "b": "<image>",
+          "c": "<src>",
+          "d": "<picture>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a button?",
+        "options": {
+          "a": "<button>",
+          "b": "<input type='button'>",
+          "c": "<button type='button'>",
+          "d": "<input button='button'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define the title of an HTML document?",
+        "options": {
+          "a": "<title>",
+          "b": "<head>",
+          "c": "<header>",
+          "d": "<document>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a text input field?",
+        "options": {
+          "a": "<input type='text'>",
+          "b": "<textinput type='text'>",
+          "c": "<textfield>",
+          "d": "<textbox>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-one heading in HTML?",
+        "options": {
+          "a": "<h1>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a radio button?",
+        "options": {
+          "a": "<input type='radio'>",
+          "b": "<radio>",
+          "c": "<input type='button'>",
+          "d": "<input button='radio'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-two heading in HTML?",
+        "options": {
+          "a": "<h2>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a text area?",
+        "options": {
+          "a": "<input type='textarea'>",
+          "b": "<textarea>",
+          "c": "<textinput type='textarea'>",
+          "d": "<input text='textarea'>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a level-three heading in HTML?",
+        "options": {
+          "a": "<h3>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a drop-down list?",
+        "options": {
+          "a": "<dropdown>",
+          "b": "<list>",
+          "c": "<select>",
+          "d": "<input type='list'>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a level-four heading in HTML?",
+        "options": {
+          "a": "<h4>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text bold?",
+        "options": {
+          "a": "<b>",
+          "b": "<bold>",
+          "c": "<strong>",
+          "d": "<em>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-five heading in HTML?",
+        "options": {
+          "a": "<h5>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text italic?",
+        "options": {
+          "a": "<italic>",
+          "b": "<em>",
+          "c": "<i>",
+          "d": "<italicize>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a level-six heading in HTML?",
+        "options": {
+          "a": "<h6>",
+          "b": "<h5>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a section in HTML?",
+        "options": {
+          "a": "<section>",
+          "b": "<div>",
+          "c": "<span>",
+          "d": "<article>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": {
+          "a": "<a url='http://example.com'>Example</a>",
+          "b": "<a link='http://example.com'>Example</a>",
+          "c": "<a href='http://example.com'>Example</a>",
+          "d": "<a src='http://example.com'>Example</a>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an unordered list in HTML?",
+        "options": {
+          "a": "<ul>",
+          "b": "<ol>",
+          "c": "<li>",
+          "d": "<dl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for inserting an image?",
+        "options": {
+          "a": "<img src='image.jpg'>",
+          "b": "<image href='image.jpg'>",
+          "c": "<a src='image.jpg'></a>",
+          "d": "<src='image.jpg'></src>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-one heading in HTML?",
+        "options": {
+          "a": "<h1>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a radio button?",
+        "options": {
+          "a": "<input type='radio'>",
+          "b": "<radio>",
+          "c": "<input type='button'>",
+          "d": "<input button='radio'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-two heading in HTML?",
+        "options": {
+          "a": "<h2>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a text area?",
+        "options": {
+          "a": "<input type='textarea'>",
+          "b": "<textarea>",
+          "c": "<textinput type='textarea'>",
+          "d": "<input text='textarea'>"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which tag is used to define a level-three heading in HTML?",
+        "options": {
+          "a": "<h3>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a drop-down list?",
+        "options": {
+          "a": "<dropdown>",
+          "b": "<list>",
+          "c": "<select>",
+          "d": "<input type='list'>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a level-four heading in HTML?",
+        "options": {
+          "a": "<h4>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for making a text italic?",
+        "options": {
+          "a": "<italic>",
+          "b": "<em>",
+          "c": "<i>",
+          "d": "<italicize>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a level-five heading in HTML?",
+        "options": {
+          "a": "<h5>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-six heading in HTML?",
+        "options": {
+          "a": "<h6>",
+          "b": "<h5>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a line break in HTML?",
+        "options": {
+          "a": "<br>",
+          "b": "<lb>",
+          "c": "<linebreak>",
+          "d": "<newline>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for inserting a background image?",
+        "options": {
+          "a": "<background img='image.jpg'>",
+          "b": "<img background='image.jpg'>",
+          "c": "<image src='image.jpg'>",
+          "d": "<body style='background-image: url(image.jpg);'>"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "Which tag is used to define a section in HTML?",
+        "options": {
+          "a": "<section>",
+          "b": "<div>",
+          "c": "<span>",
+          "d": "<article>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": {
+          "a": "<a url='http://example.com'>Example</a>",
+          "b": "<a link='http://example.com'>Example</a>",
+          "c": "<a href='http://example.com'>Example</a>",
+          "d": "<a src='http://example.com'>Example</a>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define an unordered list in HTML?",
+        "options": {
+          "a": "<ul>",
+          "b": "<ol>",
+          "c": "<li>",
+          "d": "<dl>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a table?",
+        "options": {
+          "a": "<table>",
+          "b": "<tr>",
+          "c": "<td>",
+          "d": "<th>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a table row in HTML?",
+        "options": {
+          "a": "<tr>",
+          "b": "<th>",
+          "c": "<td>",
+          "d": "<table>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a line break?",
+        "options": {
+          "a": "<break>",
+          "b": "<lb>",
+          "c": "<br>",
+          "d": "<newline>"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which tag is used to define a table cell in HTML?",
+        "options": {
+          "a": "<td>",
+          "b": "<th>",
+          "c": "<tr>",
+          "d": "<table>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for inserting an image?",
+        "options": {
+          "a": "<img src='image.jpg'>",
+          "b": "<image href='image.jpg'>",
+          "c": "<a src='image.jpg'></a>",
+          "d": "<src='image.jpg'></src>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define the title of an HTML document?",
+        "options": {
+          "a": "<title>",
+          "b": "<head>",
+          "c": "<header>",
+          "d": "<document>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a button?",
+        "options": {
+          "a": "<button>",
+          "b": "<input type='button'>",
+          "c": "<button type='button'>",
+          "d": "<input button='button'>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-one heading in HTML?",
+        "options": {
+          "a": "<h1>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "What is the correct HTML for creating a text input field?",
+        "options": {
+          "a": "<input type='text'>",
+          "b": "<textinput type='text'>",
+          "c": "<textfield>",
+          "d": "<textbox>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which tag is used to define a level-two heading in HTML?",
+        "options": {
+          "a": "<h2>",
+          "b": "<h6>",
+          "c": "<heading>",
+          "d": "<head>"
+        },
+        "answer": "a"
+      }
+    ]
+  }
+  

@@ -1,0 +1,129 @@
+Strings
+
+let text = "Reshab Kumar"
+let money = "24"
+let empty = ""
+let empty = ''
+
+let text = "Reshab Kumar"
+let length = text.length
+console.log(length)
+
+let x = new String("Reshab")
+console.log(x)
+
+let y = "Reshab"
+console.log(y);
+
+
+String length
+String slice()
+String substring()
+String substr()
+String replace()
+String replaceAll()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String charAt()
+String charCodeAt()
+String split()
+
+
+let text = "qwertyuiopasdfghjklmnbvcxz"
+let length = text.length
+console.log(length);
+
+For Extracting a part of a string
+
+slice(start,end)
+substring(start, end)
+substr(start, length)
+
+let text = "Apple, Banana, Kiwi"
+let part = text.slice(7,13);
+console.log(part)
+
+let str = "Apple, Banana, Kiwi";
+let part = str.substring(7,13);
+console.log(part)
+
+let str = "Apple, Banana, Kiwi";
+let part = str.substr(7,13);
+console.log(part)
+
+let text = "Hello and WORLD I am JavaScript"
+let newText = text.replace(/World/i, "Earth")
+console.log(text);
+console.log(newText);
+
+let text = "I love Pizza and Pizza is my favourite fast food Pizza is loveable Pizza is adorable"
+let newText = text.replaceAll("Pizza", "Kachori")
+console.log(text);
+console.log(newText);
+
+
+let text = "Hello People"
+let newText = text.toUpperCase();
+console.log(text);
+console.log(newText);
+
+let text = "HELLO PEOPLE"
+let newText = text.toLowerCase();
+console.log(text);
+console.log(newText);
+
+let text1 = "Hello"
+let text2 = "world"
+let text3 = text1.concat(" ", text2);
+console.log(text3);
+
+let text1 = "                      Hello world"
+let text2 = text1.trim();
+console.log(text1);
+console.log(text2);
+
+
+let text1 = "                      Hello world"
+let text2 = text1.trimStart();
+console.log(text1);
+console.log(text2);
+
+let text1 = "Hello world!                    "; 
+let text2 = text1.trimEnd();
+console.log(text1);
+console.log(text2);
+
+
+let text  = "5"
+let pad = text.padStart(4, "x");
+console.log(pad);
+
+
+let num = 5;
+let text = num.toString();
+let pad = text.padEnd(4, "0")
+console.log(pad);
+
+let text = "HELLO WORLD"
+let char = text.charAt(0)
+console.log(char);
+
+let text = "HELLO WORLD"
+let char = text.charCodeAt(0)
+console.log(char);
+
+let text = "HELLO WORLD"
+let char = text[0];
+console.log(char);
+
+
+let text = "a,b,c,d,e,f"
+let split = text.split(",")
+console.log(split);
+

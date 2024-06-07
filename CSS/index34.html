@@ -1,0 +1,54 @@
+CSS Styling Tables
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid;
+            width: 80%;
+            border-collapse: collapse;
+            height: 70%;
+            text-align: center;
+            padding: 15px;
+        }
+        tr:nth-child(odd) {
+            background-color: red;
+        }
+
+        tr:hover {
+            background-color: aqua;
+        }
+        td {
+            vertical-align: top;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Tables</h2>
+<div style="overflow-x: auto;">
+    <table>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+        </tr>
+        <tr>
+            <td>Reshab</td>
+            <td>Kumar</td>
+        </tr>
+        <tr>
+            <td>Rishav</td>
+            <td>Raj</td>
+        </tr>
+        <tr>
+            <td>Shubham</td>
+            <td>Kumar</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

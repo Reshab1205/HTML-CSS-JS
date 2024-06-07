@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+#page {
+
+}
+
+.class {
+    
+}

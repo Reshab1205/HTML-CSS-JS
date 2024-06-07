@@ -1,0 +1,286 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "options": [
+            "a) Hyper Text Markup Language",
+            "b) Hyperlinks and Text Markup Language",
+            "c) Home Tool Markup Language",
+            "d) Hyper Text Markup Leveler"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What tag is used for the main heading in HTML?",
+        "options": [
+            "a) <h1>",
+            "b) <head>",
+            "c) <title>",
+            "d) <body>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to define a paragraph?",
+        "options": [
+            "a) <p>",
+            "b) <div>",
+            "c) <span>",
+            "d) <h1>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to specify an alternate text for an image?",
+        "options": [
+            "a) src",
+            "b) alt",
+            "c) href",
+            "d) class"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML heading element is used for the highest level heading?",
+        "options": [
+            "a) <h1>",
+            "b) <h2>",
+            "c) <h3>",
+            "d) <h4>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to define a paragraph?",
+        "options": [
+            "a) <p>",
+            "b) <div>",
+            "c) <span>",
+            "d) <h1>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which attribute is used to define inline styles in HTML?",
+        "options": [
+            "a) style",
+            "b) class",
+            "c) id",
+            "d) src"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to display text in italic format?",
+        "options": [
+            "a) <i>",
+            "b) <em>",
+            "c) <italic>",
+            "d) <strong>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to define a short inline quotation?",
+        "options": [
+            "a) <blockquote>",
+            "b) <q>",
+            "c) <cite>",
+            "d) <abbr>"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which syntax is used to create comments in HTML?",
+        "options": [
+            "a) <!-- This is a comment -->",
+            "b) /* This is a comment */",
+            "c) // This is a comment",
+            "d) <comment> This is a comment </comment>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which format is commonly used to define colors in HTML?",
+        "options": [
+            "a) RGB",
+            "b) HEX",
+            "c) HSL",
+            "d) CMYK"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which language is used to apply styles and formatting to HTML elements?",
+        "options": [
+            "a) HTML",
+            "b) CSS",
+            "c) JavaScript",
+            "d) PHP"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "a) <a>",
+            "b) <link>",
+            "c) <href>",
+            "d) <url>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to specify the source (URL) of an image?",
+        "options": [
+            "a) src",
+            "b) alt",
+            "c) href",
+            "d) style"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "What is an HTML image map used for?",
+        "options": [
+            "a) Defining image dimensions",
+            "b) Adding captions to images",
+            "c) Creating clickable areas on an image",
+            "d) Specifying image formats"
+        ],
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which CSS property is used to set a background image in HTML?",
+        "options": [
+            "a) background-image",
+            "b) image-source",
+            "c) background-url",
+            "d) image-background"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML tag is used to define a favicon for a webpage?",
+        "options": [
+            "a) <link>",
+            "b) <meta>",
+            "c) <title>",
+            "d) <img>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to specify the title of a webpage?",
+        "options": [
+            "a) <head>",
+            "b) <title>",
+            "c) <body>",
+            "d) <h1>"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML element is used to create a table?",
+        "options": [
+            "a) <table>",
+            "b) <div>",
+            "c) <p>",
+            "d) <span>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to create an unordered list?",
+        "options": [
+            "a) <ul>",
+            "b) <ol>",
+            "c) <li>",
+            "d) <dl>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which type of HTML elements are typically used for grouping content and creating block-level structures?",
+        "options": [
+            "a) Block elements",
+            "b) Inline elements",
+            "c) Inline-block elements",
+            "d) Flex elements"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to define a class for an element?",
+        "options": [
+            "a) class",
+            "b) id",
+            "c) name",
+            "d) style"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to define an ID for an element?",
+        "options": [
+            "a) class",
+            "b) id",
+            "c) name",
+            "d) style"
+        ],
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which HTML element is used to embed another document within the current HTML document?",
+        "options": [
+            "a) <iframe>",
+            "b) <div>",
+            "c) <embed>",
+            "d) <object>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML element is used to embed external content into a webpage using an iframe?",
+        "options": [
+            "a) <iframe>",
+            "b) <div>",
+            "c) <embed>",
+            "d) <object>"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which HTML attribute is used to include external JavaScript files?",
+        "options": [
+            "a) src",
+            "b) href",
+            "c) link",
+            "d) script"
+        ],
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Which file path is used to refer to a file in the same directory as the current HTML file?",
+        "options": [
+            "a) ./file.html",
+            "b) ../file.html",
+            "c) /file.html",
+            "d) file.html"
+        ],
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Which HTML element is used to define the head section of an HTML document?",
+        "options": [
+            "a) <head>",
+            "b) <title>",
+            "c) <meta>",
+            "d) <link>"
+        ],
+        "correctAnswer": "a"
+    },
+        
+
+                                                   
+        
+]

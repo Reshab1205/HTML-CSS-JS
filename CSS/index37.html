@@ -1,0 +1,76 @@
+CSS Layout position property
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div.static {
+            position: static;
+            border: 3px solid black;
+        }
+        div.relative {
+            position: relative;
+            left: 30px;
+            border: 3px solid yellowgreen;
+        }
+        div.fixed {
+            position: fixed;
+            /* bottom: 0;
+            right: 0; */
+            /* width: 300px; */
+            border: 3px solid hotpink;
+        }
+        div.absolute {
+            position: absolute;
+            /* top: 80px; */
+            /* right: 0; */
+            /* width: 200px; */
+            height: 100px;
+            border: 3px solid green;
+        }
+
+        div.sticky {
+            position: sticky;
+            border: 3px solid salmon;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Position</h2>
+    <p>position : static</p>
+    <div class="static">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore!
+    </div>
+
+    <p>position : relative</p>
+    <div class="relative">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore!
+    </div>
+
+    <br>
+    <br>
+
+    <p>position : fixed</p>
+    <div class="fixed">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore!
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p>position : absolute</p>
+    <div class="absolute">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore!
+    </div>
+
+    <p>position : sticky</p>
+    <div class="sticky">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dolore!
+    </div>
+</body>
+</html>

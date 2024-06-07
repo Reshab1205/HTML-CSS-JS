@@ -1,0 +1,55 @@
+CSS z-index property
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* img {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            z-index: -1;
+        } */
+        .container {
+            position: relative;
+        }
+        .black-box {
+            position: relative;
+            z-index: 1;
+            border: 2px solid black;
+            height: 100px;
+            margin: 30px;
+        }
+        .gray-box {
+            position: absolute;
+            z-index: 3;
+            border: 2px solid gray;
+            height: 60px;
+            /* margin: 30px; */
+            top: 50px;
+        }
+        .green-box {
+            position: absolute;
+            z-index: 2;
+            border: 2px solid green;
+            height: 100px;
+            /* margin: 30px; */
+            top: -15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Z-index</h2>
+    <!-- <img src="html.jpg">
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, quibusdam?</p> -->
+    <div class="container">
+        <div class="black-box">Black Box</div>
+        <div class="gray-box">Gray Box</div>
+        <div class="green-box">Green box</div>
+    </div>
+</body>
+</html>

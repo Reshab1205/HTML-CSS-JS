@@ -1,0 +1,39 @@
+JAvascript const
+
+cannot be redeclared
+cannot be reassigned
+have block scope
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // try {
+        //     const pi = 3.141592;
+        //     const array = [1,2,3,4,5]
+        //     const object = {name:"ReshabKumar", age:25}
+        //     // pi = 3.14
+        //     document.getElementById("demo").innerHTML = JSON.stringify(object);
+        // } catch (err) {
+        //     document.getElementById("demo").innerHTML = err;
+        // }
+        try{
+        const cars = ["Thar", "Scorpio", "Verna"];
+        cars[0] = "Endeavour"
+        cars.push("Pajero");
+        // cars = ["Ferrai", "Porsche"];
+
+        document.getElementById("demo").innerHTML = cars;
+    } catch (err) {
+            document.getElementById("demo").innerHTML = err;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!-- Objects
+
+car is an object 
+
+weight color look
+
+start stop run speed brakes
+
+Object methods are same but properties can be different -->
+
+<!-- const a = 6; -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Object</h2>
+    <p id="demo"></p>
+    <script>
+        // let car = "Tata";
+        const car = {
+            type: "Tata",
+            model:"Tiago",
+            color: "Blue"
+        }
+
+        let me = {
+            firstName: "Reshab",
+            lastName: "Kumar",
+            skinColor: "Fair"
+        }
+        console.log(car.color)
+        console.log(car.model)
+        document.getElementById("demo").innerHTML = "This is my car" + JSON.stringify(car.type) + "which model is" + JSON.stringify(car.model);
+    </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+         * {
+            box-sizing: border-box;
+         }
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+         header {
+            background-color: aquamarine;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: beige;
+         }
+
+         section {
+            display: -webkit-flex;
+            display: flex;
+         }
+
+         nav ul {
+            list-style-type: none;
+            padding: 0;
+         }
+
+         article {
+            -webkit-box-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: blanchedalmond;
+            padding: 10px;
+         }
+
+         footer {
+            background-color: yellowgreen;
+            padding: 10px;
+            text-align: center;
+            color: antiquewhite;
+         }
+
+         @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+         }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+
+
+<body>
+    <h2>CSS FLEXBOX</h2>
+    <p>There are grammar debates that never die; and the ones
+        highlighted in the questions in this quiz are sure to rile everyone
+        up once again. <strong>Do you know how to answer </strong>
+        the questions that cause some of the greatest grammar debates?</p>
+    <p>There are grammar debates that never die; and the ones
+        highlighted in the questions in this quiz are sure to rile everyone
+        up once again. <strong>Do you know how to answer </strong>
+        the questions that cause some of the greatest grammar debates?</p>
+
+    <header>
+        <h3>Cities</h3>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li>Kolkata</li>
+                <li>Mumbai</li>
+                <li>New Delhi</li>
+            </ul>
+        </nav>
+
+        <article>
+            Following independence in 1947, Kolkata, which was once the premier centre of Indian commerce, culture, and
+            politics, suffered many decades of political violence and economic stagnation before it rebounded.[17] The
+            city was also flooded with Hindu refugees from East Bengal (present-day Bangladesh) in the decades following
+            the 1947 partition of India, transforming its landscape and shaping its politics.[18][19] A demographically
+            diverse global city, the culture of Kolkata features idiosyncrasies that include distinctively close-knit
+            neighbourhoods (paras) and freestyle conversations (adda). Kolkata is home to eastern India's film industry,
+            known as Tollywood, and cultural institutions, such as the Academy of Fine Arts, the Victoria Memorial, the
+            Asiatic Society, the Indian Museum, and the National Library of India. Among scientific institutions,
+            Kolkata hosts the Agri Horticultural Society of India, the Geological Survey of India, the Botanical Survey
+            of India, the Calcutta Mathematical Society, the Indian Science Congress Association, the Zoological Survey
+            of India, the Institution of Engineers, the Anthropological Survey of India and the Indian Public Health
+            Association. Four Nobel laureates and two Nobel Memorial Prize winners are associated with the city.[20]
+            Though home to major cricketing venues and franchises, Kolkata stands out in India for being the country's
+            centre of association football and also having strong culture in other sports less widespread elsewhere.
+            Hence, Kolkata is also known as 'the city of joy'
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer of my blog</p>
+    </footer>
+</body>
+
+</html>

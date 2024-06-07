@@ -1,0 +1,72 @@
+CSS Navigation Bar
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            width: 60px;
+            padding: 8px 16px;
+            color: #000;
+            background-color: #dddddd;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li> <a class="active" href="#home">Home</a></li>
+        <li> <a href="#news">News</a></li>
+        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="#aboutus">About us</a></li>
+    </ul>
+
+    <div style="margin-left: 25%; padding: 1px 16px; height: 1000px;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere harum ratione quaerat magni at reprehenderit
+        nihil molestias assumenda ad vel expedita officiis soluta non unde voluptas impedit voluptatum rerum, nam
+        beatae. Nam inventore quaerat nostrum delectus maxime voluptatem laboriosam exercitationem? Mollitia cumque id
+        similique ipsam reprehenderit incidunt, quasi rem dicta sit harum rerum saepe obcaecati, fuga voluptatum. Natus
+        neque non libero sint totam est quos in id delectus voluptas autem exercitationem quis illo ratione, porro
+        blanditiis tempore provident. Aut porro repellendus ipsum incidunt illo suscipit, aspernatur at blanditiis
+        voluptates neque, corrupti eligendi voluptatibus ut non quae recusandae quam? Similique, nam.
+    </div>
+</body>
+
+</html>

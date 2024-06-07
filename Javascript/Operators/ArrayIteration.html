@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const numbers = [45,4,5,7,76];
+        const number1 = numbers.map(myFunction)
+        document.getElementById("demo").innerHTML = number1;
+
+        function myFunction(value) {
+            // text += value + "<br>";
+            return value * 5;
+        }
+    </script>
+</body>
+</html>

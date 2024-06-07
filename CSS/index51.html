@@ -1,0 +1,41 @@
+CSS Pseudo-elements
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        p::first-line {
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+
+        p.intro::first-letter {
+            color: blue;
+            font-size: 200%;
+        }
+        h1::before {
+            content: url(SmallFullColourGIF.gif);
+        }
+        h1::after {
+            content: url(gift.jpg);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Pseudo-elements</h2>
+    <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias, atque, aliquam hic ad
+        iste expedita
+        consequuntur facilis commodi minima quo! Ab est dolorem ex, consequatur velit culpa eveniet tenetur nobis
+        laborum unde aspernatur quae? Minima explicabo aspernatur impedit commodi.</p>
+
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni incidunt voluptatem nisi magnam! A atque cum
+        asperiores adipisci, explicabo necessitatibus?</p>
+</body>
+
+</html>

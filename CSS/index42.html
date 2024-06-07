@@ -1,0 +1,69 @@
+CSS Layout inline-block
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        span.a {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+        }
+        span.b {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+        }
+        span.c {
+            display: block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid black;
+            background-color: yellowgreen;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Display Property</h2>
+    <p>display: inline</p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, tempora eaque obcaecati error dolores rem nam
+        voluptatum reiciendis iure ipsam corrupti reprehenderit cupiditate veniam omnis voluptate dignissimos ex neque
+        nobis. Provident, quaerat obcaecati <span class="a"> aliquam dignissimos tempore </span> similique illo sit, soluta libero eligendi
+        expedita velit <span class="a">officia perspiciatis </span> voluptatibus consequuntur accusantium. Aliquam eaque accusantium error quam
+        sapiente amet quidem deserunt veritatis vero.
+    </div>
+
+    <p>display: inline-block</p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, tempora eaque obcaecati error dolores rem nam
+        voluptatum reiciendis iure ipsam corrupti reprehenderit cupiditate veniam omnis voluptate dignissimos ex neque
+        nobis. Provident, quaerat obcaecati <span class="b"> aliquam dignissimos tempore </span> similique illo sit, soluta libero eligendi
+        expedita velit <span class="b">officia perspiciatis </span> voluptatibus consequuntur accusantium. Aliquam eaque accusantium error quam
+        sapiente amet quidem deserunt veritatis vero.
+    </div>
+
+    <p>display: block</p>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, tempora eaque obcaecati error dolores rem nam
+        voluptatum reiciendis iure ipsam corrupti reprehenderit cupiditate veniam omnis voluptate dignissimos ex neque
+        nobis. Provident, quaerat obcaecati <span class="c"> aliquam dignissimos tempore </span> similique illo sit, soluta libero eligendi
+        expedita velit <span class="c">officia perspiciatis </span> voluptatibus consequuntur accusantium. Aliquam eaque accusantium error quam
+        sapiente amet quidem deserunt veritatis vero.
+    </div>
+</body>
+
+</html>

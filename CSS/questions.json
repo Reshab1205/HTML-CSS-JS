@@ -1,0 +1,865 @@
+{
+    "questions": [
+      {
+        "question": "What does CSS stand for?",
+        "options": {
+          "a": "Cascading Style Sheets",
+          "b": "Creative Style Sheets",
+          "c": "Computer Style Sheets",
+          "d": "Colorful Style Sheets"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which HTML tag is used to include CSS code?",
+        "options": {
+          "a": "<style>",
+          "b": "<css>",
+          "c": "<script>",
+          "d": "<link>"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "options": {
+          "a": "text-color",
+          "b": "color",
+          "c": "font-color",
+          "d": "text-style"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which CSS property is used to set the background color of an element?",
+        "options": {
+          "a": "background-color",
+          "b": "bgcolor",
+          "c": "background",
+          "d": "color"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the font size?",
+        "options": {
+          "a": "font-size",
+          "b": "text-size",
+          "c": "font-style",
+          "d": "size"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to add space between the elements' border and content?",
+        "options": {
+          "a": "margin",
+          "b": "padding",
+          "c": "border",
+          "d": "spacing"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which CSS property is used to make an element's text bold?",
+        "options": {
+          "a": "font-weight",
+          "b": "bold",
+          "c": "text-bold",
+          "d": "font-bold"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to specify the left margin of an element?",
+        "options": {
+          "a": "margin-left",
+          "b": "padding-left",
+          "c": "margin-right",
+          "d": "padding-right"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to make an element's text italic?",
+        "options": {
+          "a": "font-style",
+          "b": "italic",
+          "c": "text-italic",
+          "d": "font-italic"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to specify the right margin of an element?",
+        "options": {
+          "a": "margin-right",
+          "b": "padding-right",
+          "c": "margin-left",
+          "d": "padding-left"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to underline an element's text?",
+        "options": {
+          "a": "text-decoration",
+          "b": "underline",
+          "c": "decoration",
+          "d": "text-underline"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to specify the top margin of an element?",
+        "options": {
+          "a": "margin-top",
+          "b": "padding-top",
+          "c": "margin-bottom",
+          "d": "padding-bottom"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to strike through an element's text?",
+        "options": {
+          "a": "text-decoration",
+          "b": "strike",
+          "c": "line-through",
+          "d": "text-strike"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to specify the bottom margin of an element?",
+        "options": {
+          "a": "margin-bottom",
+          "b": "padding-bottom",
+          "c": "margin-top",
+          "d": "padding-top"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to add a shadow effect to an element?",
+        "options": {
+          "a": "box-shadow",
+          "b": "shadow",
+          "c": "text-shadow",
+          "d": "element-shadow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the width of an element's border?",
+        "options": {
+          "a": "border-width",
+          "b": "border-size",
+          "c": "border-style",
+          "d": "border"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the spacing between lines of text?",
+        "options": {
+          "a": "line-spacing",
+          "b": "text-spacing",
+          "c": "line-height",
+          "d": "text-height"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which CSS property is used to set the height of an element?",
+        "options": {
+          "a": "height",
+          "b": "element-height",
+          "c": "size",
+          "d": "dimension"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to align the text to the right?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-right",
+          "d": "align-right"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the width of an element?",
+        "options": {
+          "a": "width",
+          "b": "element-width",
+          "c": "size",
+          "d": "dimension"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the spacing between words?",
+        "options": {
+          "a": "word-spacing",
+          "b": "text-spacing",
+          "c": "letter-spacing",
+          "d": "word-break"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the maximum width of an element?",
+        "options": {
+          "a": "max-width",
+          "b": "element-max-width",
+          "c": "width",
+          "d": "dimension"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to align the text to the center?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-center",
+          "d": "align-center"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the maximum height of an element?",
+        "options": {
+          "a": "max-height",
+          "b": "element-max-height",
+          "c": "height",
+          "d": "dimension"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the spacing between letters?",
+        "options": {
+          "a": "letter-spacing",
+          "b": "text-spacing",
+          "c": "word-spacing",
+          "d": "letter-break"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the position of an element?",
+        "options": {
+          "a": "position",
+          "b": "element-position",
+          "c": "layout",
+          "d": "display"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the visibility of an element?",
+        "options": {
+          "a": "visibility",
+          "b": "visible",
+          "c": "display",
+          "d": "show"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the opacity of an element?",
+        "options": {
+          "a": "opacity",
+          "b": "transparent",
+          "c": "visibility",
+          "d": "display"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the display behavior of an element?",
+        "options": {
+          "a": "display",
+          "b": "visible",
+          "c": "position",
+          "d": "layout"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the vertical alignment of an element?",
+        "options": {
+          "a": "vertical-align",
+          "b": "align",
+          "c": "position",
+          "d": "layout"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the floating behavior of an element?",
+        "options": {
+          "a": "float",
+          "b": "floating",
+          "c": "position",
+          "d": "layout"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text transformation?",
+        "options": {
+          "a": "text-transform",
+          "b": "transform",
+          "c": "text-style",
+          "d": "text-change"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the position of a background image?",
+        "options": {
+          "a": "background-position",
+          "b": "image-position",
+          "c": "background-image",
+          "d": "image"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the background image of an element?",
+        "options": {
+          "a": "background-image",
+          "b": "image",
+          "c": "background",
+          "d": "image-source"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the background repeat behavior?",
+        "options": {
+          "a": "background-repeat",
+          "b": "repeat",
+          "c": "background",
+          "d": "repeat-image"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the background color and image of an element?",
+        "options": {
+          "a": "background",
+          "b": "background-color",
+          "c": "bgcolor",
+          "d": "image"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the size of a background image?",
+        "options": {
+          "a": "background-size",
+          "b": "image-size",
+          "c": "background-image",
+          "d": "image"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the opacity of an element's background?",
+        "options": {
+          "a": "background-opacity",
+          "b": "opacity",
+          "c": "background",
+          "d": "background-color"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which CSS property is used to set the background attachment behavior?",
+        "options": {
+          "a": "background-attachment",
+          "b": "attachment",
+          "c": "background",
+          "d": "attach-image"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text overflow behavior?",
+        "options": {
+          "a": "text-overflow",
+          "b": "overflow",
+          "c": "text-wrap",
+          "d": "text-flow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the list item marker style?",
+        "options": {
+          "a": "list-style",
+          "b": "list",
+          "c": "marker-style",
+          "d": "item-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the padding of an element?",
+        "options": {
+          "a": "padding",
+          "b": "element-padding",
+          "c": "margin",
+          "d": "spacing"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text indentation?",
+        "options": {
+          "a": "text-indent",
+          "b": "indent",
+          "c": "text-wrap",
+          "d": "text-flow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the outline style of an element?",
+        "options": {
+          "a": "outline-style",
+          "b": "outline",
+          "c": "border-style",
+          "d": "border"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which CSS property is used to set the outline color of an element?",
+        "options": {
+          "a": "outline-color",
+          "b": "outline",
+          "c": "border-color",
+          "d": "border"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the outline width of an element?",
+        "options": {
+          "a": "outline-width",
+          "b": "outline",
+          "c": "border-width",
+          "d": "border"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the border color of an element?",
+        "options": {
+          "a": "border-color",
+          "b": "color",
+          "c": "border",
+          "d": "border-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the border style of an element?",
+        "options": {
+          "a": "border-style",
+          "b": "style",
+          "c": "border",
+          "d": "border-color"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the border width of an element?",
+        "options": {
+          "a": "border-width",
+          "b": "width",
+          "c": "border",
+          "d": "border-color"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the border radius of an element?",
+        "options": {
+          "a": "border-radius",
+          "b": "radius",
+          "c": "border",
+          "d": "border-width"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the box shadow of an element?",
+        "options": {
+          "a": "box-shadow",
+          "b": "shadow",
+          "c": "text-shadow",
+          "d": "element-shadow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow of an element?",
+        "options": {
+          "a": "text-shadow",
+          "b": "shadow",
+          "c": "box-shadow",
+          "d": "element-shadow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the transition effect of an element?",
+        "options": {
+          "a": "transition",
+          "b": "effect",
+          "c": "animation",
+          "d": "transform"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the animation effect of an element?",
+        "options": {
+          "a": "animation",
+          "b": "effect",
+          "c": "transition",
+          "d": "transform"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the transform effect of an element?",
+        "options": {
+          "a": "transform",
+          "b": "effect",
+          "c": "animation",
+          "d": "transition"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the z-index of an element?",
+        "options": {
+          "a": "z-index",
+          "b": "index",
+          "c": "position",
+          "d": "layer"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the overflow behavior of an element?",
+        "options": {
+          "a": "overflow",
+          "b": "hide",
+          "c": "visible",
+          "d": "scroll"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the background gradient of an element?",
+        "options": {
+          "a": "background-image",
+          "b": "gradient",
+          "c": "background",
+          "d": "image"
+        },
+        "answer": "b"
+      },
+      {
+        "question": "Which CSS property is used to set the box sizing behavior?",
+        "options": {
+          "a": "box-sizing",
+          "b": "sizing",
+          "c": "size",
+          "d": "dimension"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the cursor style of an element?",
+        "options": {
+          "a": "cursor",
+          "b": "style",
+          "c": "pointer",
+          "d": "mouse"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the outline behavior of an element?",
+        "options": {
+          "a": "outline",
+          "b": "border",
+          "c": "style",
+          "d": "border-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text align to justify?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-justify",
+          "d": "align-justify"
+        },
+        "answer": "c"
+      },
+      {
+        "question": "Which CSS property is used to set the text align to center?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-center",
+          "d": "align-center"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text align to right?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-right",
+          "d": "align-right"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text align to left?",
+        "options": {
+          "a": "text-align",
+          "b": "align",
+          "c": "text-left",
+          "d": "align-left"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text transform to uppercase?",
+        "options": {
+          "a": "text-transform",
+          "b": "transform",
+          "c": "uppercase",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text transform to lowercase?",
+        "options": {
+          "a": "text-transform",
+          "b": "transform",
+          "c": "lowercase",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text transform to capitalize?",
+        "options": {
+          "a": "text-transform",
+          "b": "transform",
+          "c": "capitalize",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text decoration to underline?",
+        "options": {
+          "a": "text-decoration",
+          "b": "decoration",
+          "c": "underline",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text decoration to line-through?",
+        "options": {
+          "a": "text-decoration",
+          "b": "decoration",
+          "c": "line-through",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text decoration to overline?",
+        "options": {
+          "a": "text-decoration",
+          "b": "decoration",
+          "c": "overline",
+          "d": "text-style"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text overflow behavior?",
+        "options": {
+          "a": "text-overflow",
+          "b": "overflow",
+          "c": "text-wrap",
+          "d": "text-flow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow color?",
+        "options": {
+          "a": "text-shadow-color",
+          "b": "shadow-color",
+          "c": "text-color",
+          "d": "color"
+        },
+        "answer": "d"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow horizontal offset?",
+        "options": {
+          "a": "text-shadow-offset-x",
+          "b": "shadow-offset-x",
+          "c": "text-offset-x",
+          "d": "offset-x"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow vertical offset?",
+        "options": {
+          "a": "text-shadow-offset-y",
+          "b": "shadow-offset-y",
+          "c": "text-offset-y",
+          "d": "offset-y"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow blur radius?",
+        "options": {
+          "a": "text-shadow-blur",
+          "b": "shadow-blur",
+          "c": "text-blur",
+          "d": "blur"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow spread radius?",
+        "options": {
+          "a": "text-shadow-spread",
+          "b": "shadow-spread",
+          "c": "text-spread",
+          "d": "spread"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the text shadow multiple shadows?",
+        "options": {
+          "a": "text-shadow",
+          "b": "shadow",
+          "c": "text-multiple-shadow",
+          "d": "multiple-shadow"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the opacity of an element?",
+        "options": {
+          "a": "opacity",
+          "b": "transparent",
+          "c": "visibility",
+          "d": "display"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the visibility of an element?",
+        "options": {
+          "a": "visibility",
+          "b": "visible",
+          "c": "display",
+          "d": "show"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the display behavior of an element?",
+        "options": {
+          "a": "display",
+          "b": "visible",
+          "c": "show",
+          "d": "visibility"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the position of an element?",
+        "options": {
+          "a": "position",
+          "b": "top",
+          "c": "left",
+          "d": "float"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the top position of an element?",
+        "options": {
+          "a": "top",
+          "b": "position-top",
+          "c": "element-top",
+          "d": "element-position"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the left position of an element?",
+        "options": {
+          "a": "left",
+          "b": "position-left",
+          "c": "element-left",
+          "d": "element-position"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the float behavior of an element?",
+        "options": {
+          "a": "float",
+          "b": "position",
+          "c": "clear",
+          "d": "display"
+        },
+        "answer": "a"
+      },
+      {
+        "question": "Which CSS property is used to set the clear behavior of an element?",
+        "options": {
+          "a": "clear",
+          "b": "position",
+          "c": "float",
+          "d": "display"
+        },
+        "answer": "a"
+      }
+    ]
+  }
+  

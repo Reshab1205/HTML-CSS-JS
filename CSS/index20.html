@@ -1,0 +1,50 @@
+CSS Text Effects
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        p.text1 {
+            /* white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: clip; */
+            writing-mode: horizontal-tb;
+        }
+
+        p.text2 {
+            /* white-space: nowrap;
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: ellipsis; */
+            writing-mode: vertical-rl;
+        }
+
+        /* p {
+            width: 11em;
+            border: 1px solid black;
+            word-wrap: break-word;
+        } */
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Text-Overflow</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, iure nemo sit eveniet quibusdam quam fugiat
+        illo soluta rerum aspernatur.</p>
+
+    <h2>About text-overflow</h2>
+    <p class="text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, voluptas.</p>
+
+    <h2>Ellipsis</h2>
+    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, architecto.</p>
+</body>
+
+</html>

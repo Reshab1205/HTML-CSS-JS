@@ -1,0 +1,44 @@
+<!-- CSS gradients -->
+<!-- 
+Linear Gradients
+Radial Gradients
+Conic Gradients -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #gradient1 {
+            height: 200px;
+            /* background-color: red; */
+            background-image: repeating-linear-gradient(123deg, violet, indigo, blue, green, yellow, orange, red);
+        }
+        #gradient2 {
+            height: 200px;
+            background-image: radial-gradient(circle, violet 10%, indigo 5%, blue, green, yellow, orange, red);
+        }
+        #gradient3 {
+            height: 200px;
+            width: 200px;
+            background-image: conic-gradient( violet, indigo, blue, green, yellow, orange, red);
+            border-radius: 50%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Linear Gradient</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quos.</p>
+    <div id="gradient1"></div>
+    <br>
+    <br>
+    <div id="gradient2"></div>
+    <br>
+    <br>
+    <div id="gradient3"></div>
+
+</body>
+</html>

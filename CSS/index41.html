@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        div {
+            border: 3px solid yellow;
+            padding: 5px;
+        }
+
+        .img1 {
+            float: right;
+        }
+        .img2 {
+            float: right;
+        }
+        .clear::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Clear</h2>
+    <div>
+        <img class="img1" src="html.jpg" alt="html" width="170" height="170">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, delectus nesciunt! Molestias inventore non
+        incidunt expedita quos nobis minus libero.
+    </div>
+
+    <br>
+    <br>
+
+    <div class="clear">
+        <img class="img2" src="gift.jpg" alt="gift" width="170" height="170">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint expedita in aliquam corrupti necessitatibus, iusto
+        odio nisi quod sapiente est?
+    </div>
+</body>
+
+</html>

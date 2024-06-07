@@ -1,0 +1,37 @@
+<!-- Events -->
+
+<!-- loading
+input field have some changes
+button clicked
+hover -->
+
+onChange
+onclick
+onmouseover
+onmouseout
+onkeydown
+onload
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">Click me</button>
+    <p id="demo"></p>
+    <!-- <button onclick="this.innerHTML=Date()">Time</button> -->
+    <p id="demo"></p>
+
+    <button onclick="displayDate()">DisplayTime</button>
+
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+</body>
+</html>
